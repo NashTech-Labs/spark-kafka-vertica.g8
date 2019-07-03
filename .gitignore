@@ -1,3 +1,9 @@
+target/
+boot/
+lib_managed/
+src_managed/
+project/plugins/project/
+
 *.class
 *.log
 
@@ -29,4 +35,4 @@ project/plugins/project/
 .idea_modules
 projectFilesBackup
 
-src/main/resources/checkpoints/*
+src/main/g8/src/main/resources/checkpoints/*

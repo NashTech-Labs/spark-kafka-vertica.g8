@@ -35,7 +35,7 @@ trait Logging {
     if (level.id >= logLevelId) logFunc(message, exp)
 
   protected def noConfigFound(configName: String): Unit =
-    warn(s"no value found for configuration $configName, Setting default value for this property")
+    warn("no value found for configuration " + configName + ", Setting default value for this property")
 
 }
 
