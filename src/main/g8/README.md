@@ -69,6 +69,6 @@ other data sources**.
 **Prerequisites**:
 
 1. Run Kafka: provide host and port in config file or environment
-2. Run HDFS: provide name node and webdfs node in config file or environment
+2. Run HDFS: provide name node and webdfs node in config file or environment (Only for writing to Vertica:batch or streaming)
 3. Run Vertica: provide host, port and credentials for vertica in config file or environment
 4. Run corresponding application
